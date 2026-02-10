@@ -20,16 +20,20 @@
 	<string>1.0</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
+	<key>CFBundleIconFile</key>
+	<string>Icon</string>
 	<key>DTPlatformName</key>
 	<string>iphoneos</string>
 	<key>DTSDKName</key>
-	<string>iphoneos4.2</string>
+	<string>iphoneos9.3</string>
 	<key>FRApplianceName</key>
 	<string>SimpleApp</string>
 	<key>FRApplianceDataSourceType</key>
 	<string>All</string>
 	<key>FRAppliancePreferedOrderValue</key>
 	<integer>1</integer>
+	<key>FRPrimaryAppliance</key>
+	<true/>
 	<key>FRHideIfNoCategories</key>
 	<false/>
 	<key>FRRemoteAppliance</key>

@@ -94,4 +94,9 @@ void LogToFile(NSString *msg) {
     LogToFile([NSString stringWithFormat:@"[FORWARD:%@]\n", NSStringFromSelector([invocation selector])]);
 }
 
+- (BOOL)brEventAction:(id)action {
+    LogToFile([NSString stringWithFormat:@"[brEventAction:%@]\n", action]);
+    return %orig;
+}
+
 %end

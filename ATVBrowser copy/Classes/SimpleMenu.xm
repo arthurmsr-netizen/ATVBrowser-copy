@@ -81,4 +81,9 @@ static char const * const menuItemsKey = "menuItems";
     NSLog(@"[SimpleApp] itemSelected:%ld", selected);
 }
 
+- (BOOL)brEventAction:(id)action {
+    NSLog(@"[SimpleApp] brEventAction:%@", action);
+    return %orig;
+}
+
 %end
