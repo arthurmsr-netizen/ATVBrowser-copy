@@ -6,7 +6,7 @@ include $(THEOS)/makefiles/common.mk
 BUNDLE_NAME = SimpleApp
 
 SimpleApp_FILES = Classes/SimpleAppliance.xm
-SimpleApp_INSTALL_PATH = /Applications/Lowtide.app/Appliances
+SimpleApp_INSTALL_PATH = /Applications/AppleTV.app/Appliances
 SimpleApp_BUNDLE_EXTENSION = frappliance
 SimpleApp_FRAMEWORKS = Foundation UIKit
 SimpleApp_PRIVATE_FRAMEWORKS = BackRow
