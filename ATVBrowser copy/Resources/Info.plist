@@ -5,7 +5,7 @@
 	<key>CFBundleExecutable</key>
 	<string>SimpleApp</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.apple.frontrow.appliance.simpleapp</string>
+	<string>com.custom.simpleapp</string>
 	<key>CFBundleName</key>
 	<string>SimpleApp</string>
 	<key>CFBundlePackageType</key>
@@ -18,14 +18,18 @@
 	</array>
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
+	<key>CFBundleIconFile</key>
+	<string>Icon.png</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>DTPlatformName</key>
 	<string>iphoneos</string>
 	<key>DTSDKName</key>
-	<string>iphoneos4.2</string>
+	<string>iphoneos4.3</string>
 	<key>FRApplianceName</key>
 	<string>SimpleApp</string>
+	<key>FRPrimaryAppliance</key>
+	<true/>
 	<key>FRApplianceDataSourceType</key>
 	<string>All</string>
 	<key>FRAppliancePreferedOrderValue</key>
