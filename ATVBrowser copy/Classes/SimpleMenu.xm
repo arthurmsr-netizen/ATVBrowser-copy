@@ -81,4 +81,23 @@ static char const * const menuItemsKey = "menuItems";
     NSLog(@"[SimpleApp] itemSelected:%ld", selected);
 }
 
+- (BOOL)brEventAction:(id)action {
+    NSLog(@"[SimpleApp] brEventAction called with action: %@", action);
+    
+    // Get the remote action type
+    int remoteAction = (int)[action remoteAction];
+    NSLog(@"[SimpleApp] remoteAction: %d", remoteAction);
+    
+    // Handle select/play button (remoteAction == 1)
+    if (remoteAction == 1) {
+        long row = [[self list] selection];
+        NSLog(@"[SimpleApp] Select button pressed on row: %ld", row);
+        [self itemSelected:row];
+        return YES;
+    }
+    
+    // Let parent handle other actions
+    return %orig;
+}
+
 %end
