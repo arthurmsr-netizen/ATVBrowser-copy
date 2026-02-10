@@ -1,0 +1,71 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/artur/Projects/ATVBrowser/.theos/_/Applications/Lowtide.app/Appliances/SimpleApp.frappliance/SimpleApp'
+relocations:
+  - { offset: 0x1E, size: 0x8, addend: 0x0, symName: '-[TopShelfController refresh]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x14 }
+  - { offset: 0x69, size: 0x8, addend: 0x0, symName: '__ZL46_logos_orig$_ungrouped$SimpleApplianceInfo$key', symObjAddr: 0x3018, symBinAddr: 0x8660, symSize: 0x0 }
+  - { offset: 0x13A, size: 0x8, addend: 0x0, symName: '__ZL47_logos_orig$_ungrouped$SimpleApplianceInfo$name', symObjAddr: 0x3020, symBinAddr: 0x8668, symSize: 0x0 }
+  - { offset: 0x157, size: 0x8, addend: 0x0, symName: '__ZL67_logos_orig$_ungrouped$SimpleApplianceInfo$localizedStringsFileName', symObjAddr: 0x3028, symBinAddr: 0x8670, symSize: 0x0 }
+  - { offset: 0x1C6, size: 0x8, addend: 0x0, symName: '__ZL52_logos_orig$_ungrouped$SimpleAppliance$applianceInfo', symObjAddr: 0x3030, symBinAddr: 0x8678, symSize: 0x0 }
+  - { offset: 0x218, size: 0x8, addend: 0x0, symName: '__ZL54_logos_meta_orig$_ungrouped$SimpleAppliance$initialize', symObjAddr: 0x3038, symBinAddr: 0x8680, symSize: 0x0 }
+  - { offset: 0x252, size: 0x8, addend: 0x0, symName: '__ZL43_logos_orig$_ungrouped$SimpleAppliance$init', symObjAddr: 0x3040, symBinAddr: 0x8688, symSize: 0x0 }
+  - { offset: 0x29B, size: 0x8, addend: 0x0, symName: '-[TopShelfController refresh]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x14 }
+  - { offset: 0x2A3, size: 0x8, addend: 0x0, symName: '-[TopShelfController selectCategoryWithIdentifier:]', symObjAddr: 0x14, symBinAddr: 0x4014, symSize: 0x18 }
+  - { offset: 0x2DB, size: 0x8, addend: 0x0, symName: '-[TopShelfController selectCategoryWithIdentifier:]', symObjAddr: 0x14, symBinAddr: 0x4014, symSize: 0x18 }
+  - { offset: 0x2E3, size: 0x8, addend: 0x0, symName: '-[TopShelfController topShelfView]', symObjAddr: 0x2C, symBinAddr: 0x402C, symSize: 0x64 }
+  - { offset: 0x341, size: 0x8, addend: 0x0, symName: '-[TopShelfController topShelfView]', symObjAddr: 0x2C, symBinAddr: 0x402C, symSize: 0x64 }
+  - { offset: 0x349, size: 0x8, addend: 0x0, symName: __ZL15_logosLocalInitv, symObjAddr: 0x90, symBinAddr: 0x4090, symSize: 0x528 }
+  - { offset: 0x3B7, size: 0x8, addend: 0x0, symName: __ZL15_logosLocalInitv, symObjAddr: 0x90, symBinAddr: 0x4090, symSize: 0x528 }
+  - { offset: 0x3BF, size: 0x8, addend: 0x0, symName: '__ZL48_logos_method$_ungrouped$SimpleApplianceInfo$keyP19SimpleApplianceInfoP13objc_selector', symObjAddr: 0x5B8, symBinAddr: 0x45B8, symSize: 0x64 }
+  - { offset: 0x57D, size: 0x8, addend: 0x0, symName: '__ZL48_logos_method$_ungrouped$SimpleApplianceInfo$keyP19SimpleApplianceInfoP13objc_selector', symObjAddr: 0x5B8, symBinAddr: 0x45B8, symSize: 0x64 }
+  - { offset: 0x585, size: 0x8, addend: 0x0, symName: '__ZL49_logos_method$_ungrouped$SimpleApplianceInfo$nameP19SimpleApplianceInfoP13objc_selector', symObjAddr: 0x61C, symBinAddr: 0x461C, symSize: 0x64 }
+  - { offset: 0x5C7, size: 0x8, addend: 0x0, symName: '__ZL49_logos_method$_ungrouped$SimpleApplianceInfo$nameP19SimpleApplianceInfoP13objc_selector', symObjAddr: 0x61C, symBinAddr: 0x461C, symSize: 0x64 }
+  - { offset: 0x5CF, size: 0x8, addend: 0x0, symName: '__ZL69_logos_method$_ungrouped$SimpleApplianceInfo$localizedStringsFileNameP19SimpleApplianceInfoP13objc_selector', symObjAddr: 0x680, symBinAddr: 0x4680, symSize: 0x1C }
+  - { offset: 0x611, size: 0x8, addend: 0x0, symName: '__ZL69_logos_method$_ungrouped$SimpleApplianceInfo$localizedStringsFileNameP19SimpleApplianceInfoP13objc_selector', symObjAddr: 0x680, symBinAddr: 0x4680, symSize: 0x1C }
+  - { offset: 0x619, size: 0x8, addend: 0x0, symName: '__ZL54_logos_method$_ungrouped$SimpleAppliance$applianceInfoP15SimpleApplianceP13objc_selector', symObjAddr: 0x69C, symBinAddr: 0x469C, symSize: 0x5C }
+  - { offset: 0x65B, size: 0x8, addend: 0x0, symName: '__ZL54_logos_method$_ungrouped$SimpleAppliance$applianceInfoP15SimpleApplianceP13objc_selector', symObjAddr: 0x69C, symBinAddr: 0x469C, symSize: 0x5C }
+  - { offset: 0x663, size: 0x8, addend: 0x0, symName: '__ZL56_logos_meta_method$_ungrouped$SimpleAppliance$initializeP10objc_classP13objc_selector', symObjAddr: 0x6F8, symBinAddr: 0x46F8, symSize: 0x2C }
+  - { offset: 0x6B7, size: 0x8, addend: 0x0, symName: '__ZL56_logos_meta_method$_ungrouped$SimpleAppliance$initializeP10objc_classP13objc_selector', symObjAddr: 0x6F8, symBinAddr: 0x46F8, symSize: 0x2C }
+  - { offset: 0x6BF, size: 0x8, addend: 0x0, symName: '__ZL45_logos_method$_ungrouped$SimpleAppliance$initP15SimpleApplianceP13objc_selector', symObjAddr: 0x724, symBinAddr: 0x4724, symSize: 0x120 }
+  - { offset: 0x70D, size: 0x8, addend: 0x0, symName: '__ZL45_logos_method$_ungrouped$SimpleAppliance$initP15SimpleApplianceP13objc_selector', symObjAddr: 0x724, symBinAddr: 0x4724, symSize: 0x120 }
+  - { offset: 0x715, size: 0x8, addend: 0x0, symName: '__ZL59_logos_method$_ungrouped$SimpleAppliance$topShelfControllerP15SimpleApplianceP13objc_selector', symObjAddr: 0x844, symBinAddr: 0x4844, symSize: 0x30 }
+  - { offset: 0x7A9, size: 0x8, addend: 0x0, symName: '__ZL59_logos_method$_ungrouped$SimpleAppliance$topShelfControllerP15SimpleApplianceP13objc_selector', symObjAddr: 0x844, symBinAddr: 0x4844, symSize: 0x30 }
+  - { offset: 0x7B1, size: 0x8, addend: 0x0, symName: '__ZL60_logos_method$_ungrouped$SimpleAppliance$applianceCategoriesP15SimpleApplianceP13objc_selector', symObjAddr: 0x874, symBinAddr: 0x4874, symSize: 0x30 }
+  - { offset: 0x7F3, size: 0x8, addend: 0x0, symName: '__ZL60_logos_method$_ungrouped$SimpleAppliance$applianceCategoriesP15SimpleApplianceP13objc_selector', symObjAddr: 0x874, symBinAddr: 0x4874, symSize: 0x30 }
+  - { offset: 0x7FB, size: 0x8, addend: 0x0, symName: '__ZL67_logos_method$_ungrouped$SimpleAppliance$identifierForContentAlias$P15SimpleApplianceP13objc_selectorP11objc_object', symObjAddr: 0x8A4, symBinAddr: 0x48A4, symSize: 0x20 }
+  - { offset: 0x83D, size: 0x8, addend: 0x0, symName: '__ZL67_logos_method$_ungrouped$SimpleAppliance$identifierForContentAlias$P15SimpleApplianceP13objc_selectorP11objc_object', symObjAddr: 0x8A4, symBinAddr: 0x48A4, symSize: 0x20 }
+  - { offset: 0x845, size: 0x8, addend: 0x0, symName: '__ZL70_logos_method$_ungrouped$SimpleAppliance$controllerForIdentifier$args$P15SimpleApplianceP13objc_selectorP11objc_objectS4_', symObjAddr: 0x8C4, symBinAddr: 0x48C4, symSize: 0xA4 }
+  - { offset: 0x899, size: 0x8, addend: 0x0, symName: '__ZL70_logos_method$_ungrouped$SimpleAppliance$controllerForIdentifier$args$P15SimpleApplianceP13objc_selectorP11objc_objectS4_', symObjAddr: 0x8C4, symBinAddr: 0x48C4, symSize: 0xA4 }
+  - { offset: 0x8A1, size: 0x8, addend: 0x0, symName: '__ZL51_logos_method$_ungrouped$SimpleAppliance$handlePlayP15SimpleApplianceP13objc_selector', symObjAddr: 0x968, symBinAddr: 0x4968, symSize: 0x1C }
+  - { offset: 0x93D, size: 0x8, addend: 0x0, symName: '__ZL51_logos_method$_ungrouped$SimpleAppliance$handlePlayP15SimpleApplianceP13objc_selector', symObjAddr: 0x968, symBinAddr: 0x4968, symSize: 0x1C }
+  - { offset: 0xA10, size: 0x8, addend: 0x0, symName: __ZL15_logosLocalInitv, symObjAddr: 0x0, symBinAddr: 0x4984, symSize: 0x2E4 }
+  - { offset: 0xA3F, size: 0x8, addend: 0x0, symName: '__ZL48_logos_orig$_ungrouped$SimpleMenuController$init', symObjAddr: 0x2B80, symBinAddr: 0x86A0, symSize: 0x0 }
+  - { offset: 0xAAD, size: 0x8, addend: 0x0, symName: '__ZL53_logos_orig$_ungrouped$SimpleMenuController$itemCount', symObjAddr: 0x2B88, symBinAddr: 0x86A8, symSize: 0x0 }
+  - { offset: 0xAF6, size: 0x8, addend: 0x0, symName: '__ZL55_logos_orig$_ungrouped$SimpleMenuController$itemForRow$', symObjAddr: 0x2B90, symBinAddr: 0x86B0, symSize: 0x0 }
+  - { offset: 0xB7D, size: 0x8, addend: 0x0, symName: '__ZL56_logos_orig$_ungrouped$SimpleMenuController$titleForRow$', symObjAddr: 0x2B98, symBinAddr: 0x86B8, symSize: 0x0 }
+  - { offset: 0xB9A, size: 0x8, addend: 0x0, symName: '__ZL57_logos_orig$_ungrouped$SimpleMenuController$heightForRow$', symObjAddr: 0x2BA0, symBinAddr: 0x86C0, symSize: 0x0 }
+  - { offset: 0xBEC, size: 0x8, addend: 0x0, symName: '__ZL58_logos_orig$_ungrouped$SimpleMenuController$rowSelectable$', symObjAddr: 0x2BA8, symBinAddr: 0x86C8, symSize: 0x0 }
+  - { offset: 0xC4B, size: 0x8, addend: 0x0, symName: '__ZL66_logos_orig$_ungrouped$SimpleMenuController$previewControlForItem$', symObjAddr: 0x2BB0, symBinAddr: 0x86D0, symSize: 0x0 }
+  - { offset: 0xC68, size: 0x8, addend: 0x0, symName: '__ZL57_logos_orig$_ungrouped$SimpleMenuController$itemSelected$', symObjAddr: 0x2BB8, symBinAddr: 0x86D8, symSize: 0x0 }
+  - { offset: 0xCA2, size: 0x8, addend: 0x0, symName: __ZL15_logosLocalInitv, symObjAddr: 0x0, symBinAddr: 0x4984, symSize: 0x2E4 }
+  - { offset: 0xCAA, size: 0x8, addend: 0x0, symName: '__ZL50_logos_method$_ungrouped$SimpleMenuController$initP20SimpleMenuControllerP13objc_selector', symObjAddr: 0x2E4, symBinAddr: 0x4C68, symSize: 0x160 }
+  - { offset: 0xD75, size: 0x8, addend: 0x0, symName: '__ZL50_logos_method$_ungrouped$SimpleMenuController$initP20SimpleMenuControllerP13objc_selector', symObjAddr: 0x2E4, symBinAddr: 0x4C68, symSize: 0x160 }
+  - { offset: 0xD7D, size: 0x8, addend: 0x0, symName: '__ZL55_logos_method$_ungrouped$SimpleMenuController$menuItemsP20SimpleMenuControllerP13objc_selector', symObjAddr: 0x444, symBinAddr: 0x4DC8, symSize: 0x58 }
+  - { offset: 0xDE3, size: 0x8, addend: 0x0, symName: '__ZL55_logos_method$_ungrouped$SimpleMenuController$menuItemsP20SimpleMenuControllerP13objc_selector', symObjAddr: 0x444, symBinAddr: 0x4DC8, symSize: 0x58 }
+  - { offset: 0xDEB, size: 0x8, addend: 0x0, symName: '__ZL59_logos_method$_ungrouped$SimpleMenuController$setMenuItems$P20SimpleMenuControllerP13objc_selectorP11objc_object', symObjAddr: 0x49C, symBinAddr: 0x4E20, symSize: 0x48 }
+  - { offset: 0xE3F, size: 0x8, addend: 0x0, symName: '__ZL59_logos_method$_ungrouped$SimpleMenuController$setMenuItems$P20SimpleMenuControllerP13objc_selectorP11objc_object', symObjAddr: 0x49C, symBinAddr: 0x4E20, symSize: 0x48 }
+  - { offset: 0xE47, size: 0x8, addend: 0x0, symName: '__ZL55_logos_method$_ungrouped$SimpleMenuController$itemCountP20SimpleMenuControllerP13objc_selector', symObjAddr: 0x4E4, symBinAddr: 0x4E68, symSize: 0x54 }
+  - { offset: 0xE93, size: 0x8, addend: 0x0, symName: '__ZL55_logos_method$_ungrouped$SimpleMenuController$itemCountP20SimpleMenuControllerP13objc_selector', symObjAddr: 0x4E4, symBinAddr: 0x4E68, symSize: 0x54 }
+  - { offset: 0xE9B, size: 0x8, addend: 0x0, symName: '__ZL57_logos_method$_ungrouped$SimpleMenuController$itemForRow$P20SimpleMenuControllerP13objc_selectorl', symObjAddr: 0x538, symBinAddr: 0x4EBC, symSize: 0x64 }
+  - { offset: 0xEEF, size: 0x8, addend: 0x0, symName: '__ZL57_logos_method$_ungrouped$SimpleMenuController$itemForRow$P20SimpleMenuControllerP13objc_selectorl', symObjAddr: 0x538, symBinAddr: 0x4EBC, symSize: 0x64 }
+  - { offset: 0xEF7, size: 0x8, addend: 0x0, symName: '__ZL58_logos_method$_ungrouped$SimpleMenuController$titleForRow$P20SimpleMenuControllerP13objc_selectorl', symObjAddr: 0x59C, symBinAddr: 0x4F20, symSize: 0x64 }
+  - { offset: 0xF5D, size: 0x8, addend: 0x0, symName: '__ZL58_logos_method$_ungrouped$SimpleMenuController$titleForRow$P20SimpleMenuControllerP13objc_selectorl', symObjAddr: 0x59C, symBinAddr: 0x4F20, symSize: 0x64 }
+  - { offset: 0xF65, size: 0x8, addend: 0x0, symName: '__ZL59_logos_method$_ungrouped$SimpleMenuController$heightForRow$P20SimpleMenuControllerP13objc_selectorl', symObjAddr: 0x600, symBinAddr: 0x4F84, symSize: 0x40 }
+  - { offset: 0xFCB, size: 0x8, addend: 0x0, symName: '__ZL59_logos_method$_ungrouped$SimpleMenuController$heightForRow$P20SimpleMenuControllerP13objc_selectorl', symObjAddr: 0x600, symBinAddr: 0x4F84, symSize: 0x40 }
+  - { offset: 0xFD3, size: 0x8, addend: 0x0, symName: '__ZL60_logos_method$_ungrouped$SimpleMenuController$rowSelectable$P20SimpleMenuControllerP13objc_selectorl', symObjAddr: 0x640, symBinAddr: 0x4FC4, symSize: 0x44 }
+  - { offset: 0x1027, size: 0x8, addend: 0x0, symName: '__ZL60_logos_method$_ungrouped$SimpleMenuController$rowSelectable$P20SimpleMenuControllerP13objc_selectorl', symObjAddr: 0x640, symBinAddr: 0x4FC4, symSize: 0x44 }
+  - { offset: 0x102F, size: 0x8, addend: 0x0, symName: '__ZL68_logos_method$_ungrouped$SimpleMenuController$previewControlForItem$P20SimpleMenuControllerP13objc_selectorl', symObjAddr: 0x684, symBinAddr: 0x5008, symSize: 0xD8 }
+  - { offset: 0x10AB, size: 0x8, addend: 0x0, symName: '__ZL68_logos_method$_ungrouped$SimpleMenuController$previewControlForItem$P20SimpleMenuControllerP13objc_selectorl', symObjAddr: 0x684, symBinAddr: 0x5008, symSize: 0xD8 }
+  - { offset: 0x10B3, size: 0x8, addend: 0x0, symName: '__ZL59_logos_method$_ungrouped$SimpleMenuController$itemSelected$P20SimpleMenuControllerP13objc_selectorl', symObjAddr: 0x75C, symBinAddr: 0x50E0, symSize: 0x3C }
+  - { offset: 0x1163, size: 0x8, addend: 0x0, symName: '__ZL59_logos_method$_ungrouped$SimpleMenuController$itemSelected$P20SimpleMenuControllerP13objc_selectorl', symObjAddr: 0x75C, symBinAddr: 0x50E0, symSize: 0x3C }
+...
