@@ -43,10 +43,16 @@ static UserProfileManager *sharedInstance = nil;
 
 - (void)setHomepage:(NSString*)homepage {
     if (homepage && [homepage length] > 0) {
-        NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-        [defaults setObject:homepage forKey:@"BrowserHomepage"];
-        [defaults synchronize];
-        NSLog(@"Browser: Homepage set to: %@", homepage);
+        // Validate URL format
+        NSURL *url = [NSURL URLWithString:homepage];
+        if (url && url.scheme && url.host) {
+            NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+            [defaults setObject:homepage forKey:@"BrowserHomepage"];
+            [defaults synchronize];
+            NSLog(@"Browser: Homepage set to: %@", homepage);
+        } else {
+            NSLog(@"Browser: Invalid URL format: %@", homepage);
+        }
     }
 }
 

@@ -34,8 +34,15 @@ static char const * const currentURLKey = "currentURL";
         NSString *homepage = [manager getHomepage];
         
         NSURL *url = [NSURL URLWithString:homepage];
-        NSURLRequest *request = [NSURLRequest requestWithURL:url];
-        [webView loadRequest:request];
+        if (url && url.scheme && url.host) {
+            NSURLRequest *request = [NSURLRequest requestWithURL:url];
+            [webView loadRequest:request];
+        } else {
+            NSLog(@"Browser: Invalid homepage URL, loading default");
+            NSURL *defaultURL = [NSURL URLWithString:@"https://www.google.com"];
+            NSURLRequest *request = [NSURLRequest requestWithURL:defaultURL];
+            [webView loadRequest:request];
+        }
         
         NSLog(@"Browser: Adding webview to view hierarchy");
         [[self view] addSubview:webView];
