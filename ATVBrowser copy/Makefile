@@ -3,13 +3,13 @@ TARGET = iphone:clang:9.3:4.3
 
 include $(THEOS)/makefiles/common.mk
 
-BUNDLE_NAME = SimpleApp
+BUNDLE_NAME = Browser
 
-SimpleApp_FILES = Classes/SimpleAppliance.xm
-SimpleApp_INSTALL_PATH = /Applications/Lowtide.app/Appliances
-SimpleApp_BUNDLE_EXTENSION = frappliance
-SimpleApp_FRAMEWORKS = Foundation UIKit
-SimpleApp_PRIVATE_FRAMEWORKS = BackRow
+Browser_FILES = Classes/BrowserAppliance.xm Classes/BrowserController.xm Classes/BrowserWebView.xm Classes/SettingsController.xm Classes/UserProfileManager.xm
+Browser_INSTALL_PATH = /Applications/Lowtide.app/Appliances
+Browser_BUNDLE_EXTENSION = frappliance
+Browser_FRAMEWORKS = Foundation UIKit
+Browser_PRIVATE_FRAMEWORKS = BackRow
 
 include $(THEOS_MAKE_PATH)/bundle.mk
 
